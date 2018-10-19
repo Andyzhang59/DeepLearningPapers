@@ -1,4 +1,3 @@
-
 # 1. Survey and Tutorials
 ## 1. Summarization
 1. Recent Advances in Deep Learning An Overview(2018.07)
@@ -20,7 +19,7 @@ Neural Networks
 1. One weird trick for parallelizing convolutional neural networks
 2. VGG: Very Deep Convolutional Networks for Large-Scale Image Recognition
 3. Inceptions-v1: Going deeper with convolutions
-4. Inceptions-v2: Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift
+4. Inceptions-v2: Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift <a name="bn"></a>
 5. Inceptions-v3: Rethinking the Inception Architecture for Computer Vision
 6. Inceptions-v4: Inception-ResNet and the Impact of Residual Connections on Learning
 7. ResNet: Deep Residual Learning for Image Recognition
@@ -32,28 +31,31 @@ Neural Networks
 12. SENet: Squeeze-and-Excitation Networks
 ---
 1. An intriguing failing of convolutional neural networks and the CoordConv solution(2018.07)
-14. SkipNet: Learning Dynamic Routing in Convolutional Networks(2017.11)
-14. Gradually Updated Neural Networks for Large-Scale Image Recognition(2017.11)
-14. NASNet: Learning Transferable Architectures for Scalable Image Recognition(Neural Architecture Search 2017.07)
-14. Residual Attention Network for Image Classification(2017.04)
+2. SkipNet: Learning Dynamic Routing in Convolutional Networks(2017.11)
+3. Gradually Updated Neural Networks for Large-Scale Image Recognition(2017.11)
+4. NASNet: Learning Transferable Architectures for Scalable Image Recognition(Neural Architecture Search 2017.07)
+14. AttentionNet: Residual Attention Network for Image Classification(2017.04) [code](https://github.com/fwang91/residual-attention-network)
 14. Deformable Convolutional Networks(2017.03)
 15. Spatial Transformer Networks(2015.06)
 ---
 ### 移动端
+1. SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size(2016.02)
+---
+1. MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application
+2. A Quantization-Friendly Separable Convolution for MobileNets(2018.03)
+3. MobileNet-v2: Inverted Residuals and Linear Bottlenecks(2018.01)
+4. MnasNet: Platform-Aware Neural Architecture Search for Mobile(2018.07)
 
-1. MobileNets: Efficient Convolutional Neural Networks for Mobile Vision
-Applicatio
-14. MobileNet-v2: Inverted Residuals and Linear Bottlenecks(2018.01)
-15. ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile
-16. ShuffleNet-V2: Practical Guidelines for Efficient CNN Architecture Design(2018.07)
-17. A Quantization-Friendly Separable Convolution for MobileNets(2018.03)
+---
+1. ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile
+2. ShuffleNet-V2: Practical Guidelines for Efficient CNN Architecture Design(2018.07)
 
 ## 2. RNN(欢迎提供相关资料)
 1. LSTM: [LSTM wiki](https://en.wikipedia.org/wiki/Long_short-term_memory)
 2. GRU: Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling
 3. BILSM: Bidirectional Recurrent Neural Networks(1997)
 4. Recent Advances in Recurrent Neural Networks(2018.01)
-
+5. Adding Attentiveness to the Neurons in Recurrent Neural Networks(2018.07)
 
 # 3. object detection
 1. Recent Advances in Object Detection in the Age of Deep Convolutional Neural Networks(2018)  
@@ -65,13 +67,16 @@ Applicatio
 ## 1. 2D detection
 1. CornerNe Detecting Objects as Paired Keypoints.pdf(2018.08)
 2. **IoU-Net**:Acquisition of Localization Confidence for Accurate Object Detection(2018.07)
-3. CFENet: An Accurate and Efficient Single-Shot Object Detector for Autonomous Driving(2018.06)
+3. Tiny-DSOD: Lightweight Object Detection for Resource-Restricted Usages(2018.07)
+4. CFENet: An Accurate and Efficient Single-Shot Object Detector for Autonomous Driving(2018.06)
 4. Object detection at 200 Frames Per Second(2018.05)
+6. **SNIPER**: Efficient Multi-Scale Training(2018.05)[code](https://github.com/mahyarnajibi/SNIPER)
 6. **RefineDet**:Single-Shot Refinement Neural Network for Object Detection(cvpr2018)
 7. **Pelee**: A Real-Time Object Detection System on Mobile Devices(2018.04)
 4. DetNet: A Backbone network for Object Detection(2018.04))
 5. Cascade R-CNN Delving into High Quality Object Detection(2017.12)
 6. An Analysis of Scale Invariance in Object Detection – SNIP(2017.11) [code](https://github.com/bharatsingh430/snip)
+6. Relation Networks for Object Detection(2017.11) [code](https://github.com/msracver/Relation-Networks-for-Object-Detection)
 7. DSOD: Learning Deeply Supervised Object Detectors from Scratch(2017.08)
 8. Soft-NMS Improving Object Detection With One Line of Code(2017.04)
 8. DeNet: Scalable Real-time Object Detection with Directed Sparse Sampling(2017.03)
@@ -99,15 +104,13 @@ Applicatio
 2. 2D-Driven 3D Object Detection in RGB-D Images(ICCV2017)
 2. 3D Object Proposals for Accurate Object Class Detection(KITTI Dataset,2015)
 
-[//]: #(应该可以归类为跟踪问题)
-<!--
-## 3. Video
-2. T-CNN: Tubelets with Convolutional Neural Networks for Object Detection from Videos(2016.04)
-3. Seq-NMS for Video Object Detection(2016.02)
--->
+## 3. video
+1. Towards High Performance Video Object Detection(2017.11)
+2. Towards High Performance Video Object Detection for Mobiles(2018.04)
 
 # 4. segmentation
 1. A survey on deep learning techniques for image and video semantic segmentation(2016.04)
+2. [图像语义分割blog(2016)](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650718688&idx=3&sn=45f0864bc58f08cf7fcb17c842e05d91&scene=0#rd)
 
 ## 1.Image
 ### 1. Dataset
@@ -123,6 +126,10 @@ Applicatio
 4. Understanding Convolution for Semantic Segmentation(2017.02)
 5. Multi-Scale Context Aggregation by Dilated Convolutions(2015.11)
 
+---
+1. Conditional Random Fields as Recurrent Neural Networks(2015)
+2. Conditional Random Field and Deep Feature Learning for Hyperspectral Image Segmentation(2017.11)
+---
 #### PSPNet
 1. Pyramid Scene Parsing Network(2016.12)
 
@@ -131,7 +138,7 @@ Applicatio
 #### SegNet
 1. SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation(2015)
 #### FCN
-1. Fully Convolutional Networks for Semantic Segmentation(2016)
+1. Fully Convolutional Networks for Semantic Segmentation(2016) [code](https://github.com/shelhamer/fcn.berkeleyvision.org)
 
 ---
 1. Semantic Soft Segmentation(2018.08)
@@ -170,12 +177,14 @@ Applicatio
 1. [Object Tracking: A Survey(2006)](http://vision.eecs.ucf.edu/projects/trackingsurvey/)
 2. [New Trends on Moving Object Detection in Video Images Captured 
 by a moving Camera: A Survey ](https://hal.archives-ouvertes.fr/hal-01724322/document)
-3. [Tracking Noisy Targets: A Review of Recent Object
-Tracking Approaches](https://arxiv.org/pdf/1802.03098.pdf)
+3. [Tracking Noisy Targets: A Review of Recent ObjectTracking Approaches](https://arxiv.org/pdf/1802.03098.pdf)
 4. A Survey on Object Detection and Tracking Algorithms(2013)
 
 ## 2. VOT
+1. [Visual Object Tracking challenge](http://www.votchallenge.net)
+---
 1. The Visual Object Tracking VOT2017 challenge results(2017)
+2. The sixth Visual Object Tracking VOT2018 challenge results(2018)
 ---
 1. Tracking Emerges by Colorizing Videos(2018.06)
 2. A Twofold Siamese Network for Real-Time Object Tracking(2018.02)
@@ -186,15 +195,20 @@ Tracking Approaches](https://arxiv.org/pdf/1802.03098.pdf)
 5. Fully-Convolutional Siamese Networks for Object Tracking(2016.06)
 6. Robust Visual Tracking with Deep Convolutional Neural Network based Object Proposals on PETS(CVPR 2016)
 7. Visual Object Tracking using Adaptive Correlation Filters
-
-
 10. Certain Approach of Object Tracking using Optical Flow Techniques(2012)
+
 ## 3. MOT
+1. [Multiple Object Tracking challenge](https://motchallenge.net/)
+---
+1. [PETS 2017: Dataset and Challenge](https://motchallenge.net/data/PETS2017/)
+2. MOT16: A Benchmark for Multi-Object Tracking
+---
 1. Real-Time Multiple Object Tracking A Study on the Importance of Speed(2017.09)
 2. Online Multi-Object Tracking Using CNN-based Single Object Tracker with Spatial-Temporal Attention Mechanism(2017)
 3. Multiple-object tracking while driving: the multiple-vehicle tracking task(2014)
  
 # Face Tasks(欢迎提供相关资料)
+
 ## 1.Detection
 1. PyramidBox A Context-assisted Single Shot Face Detector(2018.03)
 2. A Convolutional Neural Network Cascade for Face Detection(2015)
@@ -209,10 +223,12 @@ Tracking Approaches](https://arxiv.org/pdf/1802.03098.pdf)
 
 3. Facenet: A unified embedding for face recognition and clustering(2015.03) 
 
+
 ## 4.Retrieval
 1. Face Video Retrieval via Deep Learning of Binary Hash Representations(2016) 
 
-
+## 5.Dataset
+1. The Devil of Face Recognition is in the Noise(2018.07)
 
 # Pedestrian(欢迎提供相关资料)
 1. In Defense of the Triplet Loss for Person Re-Identification(2017.03)
@@ -259,17 +275,17 @@ Tracking Approaches](https://arxiv.org/pdf/1802.03098.pdf)
 2. Enhanced Super-Resolution Generative Adversarial Networks(2018.09)
 
 ---
-1. CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks[coe](https://github.com/junyanz/CycleGAN)
-2. pix2pix: Image-to-image translation using conditional adversarial nets[code](https://github.com/phillipi/pix2pix)
-3. vid2vid:[code](https://github.com/NVIDIA/vid2vid)
+1. CycleGAN: Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks   [coe](https://github.com/junyanz/CycleGAN)
+2. pix2pix: Image-to-image translation using conditional adversarial nets [code](https://github.com/phillipi/pix2pix)
+3. vid2vid [code](https://github.com/NVIDIA/vid2vid)
 
 
 
 # Training
-1. Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour(2017)  
-
+  
 ## 调参
 1. ImageNet Training in Minutes(2017.09)
+2. Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour(2017)
 
 ## 1. Activation/loss function
 1. [activation](https://en.wikipedia.org/wiki/Activation_function)
@@ -287,8 +303,13 @@ Tracking Approaches](https://arxiv.org/pdf/1802.03098.pdf)
 2. Shakeout: A New Regularized Deep Neural Network Training Scheme(2016)
 3. Dropout: A Simple Way to Prevent Neural Networks from overfitting
  
+ 
 ## 4. Normalization
-1. Instance Normalization(2016)
+1. [Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift](#bn)
+2. Instance Normalization: The Missing Ingredient for Fast Stylization(2016.07)
+3. Layer Normalization(2016.07)
+4. Group Normalization(2018.03)
+4. Differentiable Learning-to-Normalize via Switchable Normalization(2018.06)
 
 # Image Annotation Tools(欢迎提供相关资料)
 1. [Visual Object Tagging Tool](https://github.com/Microsoft/VoTT)
@@ -319,8 +340,14 @@ Tracking Approaches](https://arxiv.org/pdf/1802.03098.pdf)
 1. Depth Map Prediction from a Single Image using a Multi-Scale Deep Network(NIPS 2014)
 -->
 
+[//]: #(应该可以归类为跟踪问题)
+<!--
+## 3. Video
+2. T-CNN: Tubelets with Convolutional Neural Networks for Object Detection from Videos(2016.04)
+3. Seq-NMS for Video Object Detection(2016.02)
+-->
 
-
+[//]:(![](./Tracking/Tracking.gif))
 
 
 
